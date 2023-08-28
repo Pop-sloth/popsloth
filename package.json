@@ -1,0 +1,24 @@
+{
+  "name": "popsloth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dashboard:dev": "pnpm --filter popsloth-dashboard dev",
+    "dashboard:build": "pnpm --filter popsloth-dashboard build",
+    "dashboard:prod": "pnpm --filter popsloth-dashboard start",
+    "dashboard:lint": "pnpm --filter popsloth-dashboard lint",
+    "user:dev": "pnpm --filter popsloth-user dev",
+    "user:build": "pnpm --filter popsloth-user build",
+    "user:prod": "pnpm --filter popsloth-user start",
+    "user:lint": "pnpm --filter popsloth-user lint"
+
+  },
+  "keywords": [],
+  "dependencies": {
+    "popsloth-user": "workspace:popsloth-user",
+    "popsloth-dashboard": "workspace:popsloth-dashboard"
+  },
+  "author": "",
+  "license": "ISC"
+}
