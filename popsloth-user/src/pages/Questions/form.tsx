@@ -12,6 +12,35 @@ export default function Question(){
                 <progress className='w-64 h-1 bg-red-600' value={70} max={100}></progress>
             </div>
             <p className="text-base text-black font-semibold pt-6">มีปัญหาการนอนไม่หลับหรือหลับยาก</p>
+            <div>
+                <form /*onSubmit={onSubmit}*/>
+                    {/* <label htmlFor="name"/>ชื่อ<br/>
+                    <input type="text" id="name" placeholder="กรุณากรอกชื่อจริง" name="name" /><br/>
+                    <div>
+                    <label htmlFor="gender"/>เพศ <br/>
+                    <input type="radio" name="gender"/>เพศชาย<br/>
+                    <input type="radio" name="gender"/>เพศหญิง<br/>
+                    <input type="radio" name="gender"/>กำหนดเอง<br/>
+                    </div>
+                    <button type="submit">Submit</button> */}
+                
+                    <div>
+                    <input id='1' type="radio" name="frequency"/>
+                    <label htmlFor="1">ไม่มี</label><br/>
+                    <input id='2' type="radio"  name="frequency"/>
+                    <label htmlFor="2">เป็นบางครั้ง</label><br/>
+                    <input id='3' type="radio" name="frequency"/>
+                    <label htmlFor="3">บ่อยครั้ง</label><br/>
+                    <input id='4' type="radio" name="frequency"/>
+                    <label htmlFor="4">เป็นประจำ</label><br/>
+                    </div>
+                    
+                    {/* <button type="submit">Submit</button> */}
+                </form>
+
+                <img src="/backward.svg" alt="backward" />
+            </div>
+            
                 {/* <div className="h-1 w-full bg-neutral-200 dark:bg-neutral-600">
                     <div className="h-1 bg-primary width: 45%"></div>
                 </div> */}
