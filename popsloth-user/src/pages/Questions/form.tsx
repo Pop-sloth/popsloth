@@ -5,7 +5,7 @@ import Script from 'next/script';
 export default function Question(){
     return (
         <main className="bg-[#F2F1E9] flex min-h-screen flex-col items-center justify-between p-24">
-            <div className="w-4/12 h-screen p-12 bg-white drop-shadow-xl border-[0.72px] border-black border-opacity-30 rounded-3xl text-left items-stretch  justify-start">
+            <div className="w-4/12 h-screen p-12 pt-28 bg-white drop-shadow-xl border-[0.72px] border-black border-opacity-30 rounded-3xl text-left items-stretch  justify-start">
             <p className="text-lg text-black font-semibold">Mental Health test</p>
             <p className="text-sm text-black font-normal">แบบประเมินสุขภาพจิต โดยกรมสุขภาพจิต</p>
             <label htmlFor=""></label>
