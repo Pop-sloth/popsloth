@@ -8,9 +8,16 @@ export default function Question(){
             <div className="w-4/12 h-screen p-12 bg-white drop-shadow-xl border-[0.72px] border-black border-opacity-30 rounded-3xl text-left items-stretch  justify-start">
             <p className="text-lg text-black font-semibold">Mental Health test</p>
             <p className="text-sm text-black font-normal">แบบประเมินสุขภาพจิต โดยกรมสุขภาพจิต</p>
-            <div className='pt-14 bg-slate-100'>
+            <label htmlFor=""></label>
+            {/* <div className='pt-14 bg-slate-100'>
                 <progress className='w-64 h-1 bg-red-600' value={70} max={100}></progress>
+            </div> */}
+            <div className='pt-14'>
+                <div className="w-full bg-[#E4E4E4] rounded h-2">
+                    <div className="bg-[#6C63FF] h-2 rounded w-1/4"></div>
+                </div>
             </div>
+            
             <p className="text-base text-black font-semibold pt-6">มีปัญหาการนอนไม่หลับหรือหลับยาก</p>
             <div>
                 <form /*onSubmit={onSubmit}*/>
