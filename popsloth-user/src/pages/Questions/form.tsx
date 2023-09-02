@@ -18,7 +18,7 @@ export default function Question(){
                 </div>
             </div>
             
-            <p className="text-base text-black font-semibold pt-6">มีปัญหาการนอนไม่หลับหรือหลับยาก</p>
+            <p className="text-base text-black font-semibold pt-6 pb-12">มีปัญหาการนอนไม่หลับหรือหลับยาก</p>
             <div>
                 <form /*onSubmit={onSubmit}*/>
                     {/* <label htmlFor="name"/>ชื่อ<br/>
@@ -31,7 +31,7 @@ export default function Question(){
                     </div>
                     <button type="submit">Submit</button> */}
                 
-                    <div>
+                    {/* <div>
                     <input id='1' type="radio" name="frequency"/>
                     <label htmlFor="1">ไม่มี</label><br/>
                     <input id='2' type="radio"  name="frequency"/>
@@ -40,14 +40,28 @@ export default function Question(){
                     <label htmlFor="3">บ่อยครั้ง</label><br/>
                     <input id='4' type="radio" name="frequency"/>
                     <label htmlFor="4">เป็นประจำ</label><br/>
-                    </div>
+                    </div> */}
+                    <Link href={"/"}>
+                    
+                        <div className="w-80 h-12 absolute bg-white rounded-[10px] border border-black"/>
+                        <div className="w-80 h-12 absolute text-justify flex items-center justify-center text-black text-[15px] font-medium">ไม่มี</div>
+                        <div className="w-80 h-12 relative top-[68px] bg-white rounded-[10px] border border-black"/>
+                        <div className="w-80 h-12 absolute text-justify flex items-center justify-center text-black text-[15px] font-medium pt-[40px]">เป็นบางครั้ง</div>
+                        <div className="w-80 h-12 relative top-[88px] bg-white rounded-[10px] border border-black"/>
+                        <div className="w-80 h-12 absolute text-justify flex items-center justify-center text-black text-[15px] font-medium pt-[63.5px]">บ่อยครั้ง</div>
+                        <div className="w-80 h-12 relative top-[107px] bg-white rounded-[10px] border border-black"/>
+                        <div className="w-80 h-12 absolute text-justify flex items-center justify-center text-black text-[15px] font-medium pt-[83.5px]">เป็นประจำ</div>
+                    </Link>
                     
                     {/* <button type="submit">Submit</button> */}
                 </form>
+                
+                <div className='pt-[150px]'>
+                <Link href='' className=''>
+                    <img className='' src="/backward.svg" alt="backward"/>
+                </Link>
+                </div>
 
-            <Link href='/'>
-                <img src="/backward.svg" alt="backward" />
-            </Link>
             </div>
             
                 {/* <div className="h-1 w-full bg-neutral-200 dark:bg-neutral-600">
