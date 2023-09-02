@@ -38,7 +38,9 @@ export default function Question(){
                     {/* <button type="submit">Submit</button> */}
                 </form>
 
+            <Link href='/'>
                 <img src="/backward.svg" alt="backward" />
+            </Link>
             </div>
             
                 {/* <div className="h-1 w-full bg-neutral-200 dark:bg-neutral-600">
