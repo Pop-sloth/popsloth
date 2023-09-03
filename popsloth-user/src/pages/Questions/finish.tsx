@@ -14,7 +14,7 @@ export default function Question(){
                     <img className='items-center ' src="/correct.svg" alt="check" />
                 </div>
                 
-                <p className="text-base text-black font-semibold pt-28 pb-6 text-lg flex items-center justify-center">คุณทำ Part 1 เสร็จแล้ว</p>
+                <p className="text-base text-black font-semibold pt-28 pb-6 text-lg flex items-center justify-center">คุณทำแบบฟอร์มเสร็จแล้ว</p>
                 <p className="text-sm text-black font-normal flex items-center justify-center">ขอให้เป็นวันที่ดีนะ :)</p>
 
                 <div>    
