@@ -24,6 +24,7 @@ export default function MoodCalendar() {
                     </svg>
                 </div>
                 <div id="yesterday" className='absolute left-[-4rem] top-40 z-10 w-[200px] h-[200px] bg-[#FF836D] rounded-[15px] origin-top-left rotate-[-10deg] shadow'></div>
+                <Link href='/MoodTracker/moodHappyPage' className='z-20'>
                 <div id="today" className='w-[200px] h-[200px] z-20 bg-white rounded-[15px] flex flex-col justify-center items-center shadow'>
                     <div className="w-[100px] h-[100px] relative">
                     <div className="w-[100px] h-[100px] left-0 top-0 absolute bg-white bg-opacity-0 rounded-full border border-stone-900"></div>
@@ -34,6 +35,7 @@ export default function MoodCalendar() {
                     </div>
                     <h3 className='fixed mt-36'>Sunday</h3>
                 </div>
+                </Link>
                 <div id="nav" className='flex justify-evenly mt-8 w-1/5 z-50'>
                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full"></div>
                     <div className="w-2.5 h-2.5 bg-indigo-600 rounded-full"></div>
@@ -41,6 +43,7 @@ export default function MoodCalendar() {
                 </div>
             </div>
             <div id="menuBar" className='fixed bottom-6 w-4/5 h-[50px] flex justify-evenly items-center bg-white rounded-full shadow'>
+                <Link href='/'>
                 <div id="home">
                     <Image
                         src="/home-2-outline.svg"
@@ -50,6 +53,7 @@ export default function MoodCalendar() {
                         priority
                     />
                 </div>
+                </Link>
                 <div id="moodTracker">
                     <Image
                         src="/mood-laugh (1).svg"

@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="menuBar" className='fixed bottom-6 w-4/5 h-[50px] flex justify-evenly items-center bg-white rounded-full'>
+      <div id="menuBar" className='fixed bottom-6 w-4/5 h-[50px] flex justify-evenly items-center bg-white rounded-full shadow'>
         <div id="home">
           <Image
             src="/home-2.svg"
@@ -59,6 +59,7 @@ export default function Home() {
             priority
           />
         </div>
+        <Link href='/MoodTracker/moodCalendar'>
         <div id="moodTracker">
           <Image
             src="/mood-laugh.svg"
@@ -68,6 +69,7 @@ export default function Home() {
             priority
           />
         </div>
+        </Link>
         <div id="user">
         < Image
             src="/person-outline.svg"

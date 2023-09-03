@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function ShareSad() {
     return (
-        <main className='w-screen h-screen bg-blue-500 bg-opacity-50 flex flex-col justify-center items-center'>
-            <Link href='/MoodTracker/moodPage'>
+        <main className='w-screen h-screen bg-red-600 bg-opacity-50 flex flex-col justify-center items-center'>
+            <Link href='/MoodTracker/moodAngryPage'>
             <div id="close" className='z-50 opacity-80 flex items-center justify-center fixed top-16 left-12'>
                 <Image
                     src="/close.svg"
@@ -20,8 +20,8 @@ export default function ShareSad() {
             <h1 className='text-white mt-20'>MORDEE</h1>
             <div className='w-[300px] h-[500px] bg-white bg-opacity-70 mt-4s flex justify-center items-end rounded-[15px]'>
                 <Image
-                    src="/Sad1.png"
-                    alt='sad mood'
+                    src="/Angry2.png"
+                    alt='Angry mood'
                     width={1080}
                     height={1080}
                     className='w-full h-[100%] object-cover rounded-[15px]'
