@@ -20,6 +20,7 @@ export default function Home() {
         </div>
       </div>
       <div id='content' className='mt-[8rem]'>
+        <Link href='/Questions/firstpage'>
         <div id='form' className="w-[320px] h-[260px] bg-white rounded-2xl mt-8">
           <Image
             src="/formPreImage.avif"
@@ -34,6 +35,7 @@ export default function Home() {
             <p>แบบประเมินคัดกรองโดยกรมสุขภาพจิต</p>
           </div>
         </div>
+        </Link>
         <div id='TalkAI' className="w-[320px] h-[260px] bg-white rounded-2xl mt-8">
           <Image
             src="/talkPreImage.webp"
