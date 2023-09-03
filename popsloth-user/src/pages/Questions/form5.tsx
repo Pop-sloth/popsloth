@@ -41,7 +41,7 @@ export default function Question(){
                     <input id='4' type="radio" name="frequency"/>
                     <label htmlFor="4">เป็นประจำ</label><br/>
                     </div> */}
-                    <Link href={"form2"}>
+                    <Link href={"finish"}>
                     
                         <div className="w-80 h-12 absolute bg-white rounded-[10px] border border-black"/>
                         <div className="w-80 h-12 absolute text-justify flex items-center justify-center text-black text-[15px] font-medium">ไม่มี</div>
@@ -57,7 +57,7 @@ export default function Question(){
                 </form>
                 
                 <div className='pt-[150px]'>
-                <Link href='firstpage' className=''>
+                <Link href='takeAbreak' className=''>
                     <img className='' src="/backward.svg" alt="backward"/>
                 </Link>
                 </div>

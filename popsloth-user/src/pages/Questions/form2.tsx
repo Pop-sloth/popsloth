@@ -5,7 +5,7 @@ import Script from 'next/script';
 export default function Question(){
     return (
         <main className="bg-[#F2F1E9] flex min-h-screen flex-col items-center justify-between p-24">
-            <div className="w-[80vw] flex-col flex items-center h-screen p-12 pt-28 bg-white drop-shadow-xl border-[0.72px] border-black border-opacity-30 rounded-3xl text-left justify-start">
+            <div className="w-[80vw] flex flex-col items-center h-screen p-12 pt-28 bg-white drop-shadow-xl border-[0.72px] border-black border-opacity-30 rounded-3xl text-left justify-start">
             <p className="text-lg text-black font-semibold">Mental Health test</p>
             <p className="text-sm text-black font-normal">แบบประเมินสุขภาพจิต โดยกรมสุขภาพจิต</p>
             <label htmlFor=""></label>
@@ -14,11 +14,11 @@ export default function Question(){
             </div> */}
             <div className='pt-14 w-full'>
                 <div className="w-full bg-[#E4E4E4] rounded h-2">
-                    <div className="bg-[#6C63FF] h-2 rounded w-0"></div>
+                    <div className="bg-[#6C63FF] h-2 rounded w-1/4"></div>
                 </div>
             </div>
             
-            <p className="text-base text-black font-semibold pt-6 pb-12">มีปัญหาการนอนไม่หลับหรือหลับยาก</p>
+            <p className="text-base text-black font-semibold pt-6 pb-12">มีสมาธิน้อยลง</p>
             <div>
                 <form /*onSubmit={onSubmit}*/>
                     {/* <label htmlFor="name"/>ชื่อ<br/>
@@ -41,7 +41,7 @@ export default function Question(){
                     <input id='4' type="radio" name="frequency"/>
                     <label htmlFor="4">เป็นประจำ</label><br/>
                     </div> */}
-                    <Link href={"form2"}>
+                    <Link href={"form3"}>
                     
                         <div className="w-80 h-12 absolute bg-white rounded-[10px] border border-black"/>
                         <div className="w-80 h-12 absolute text-justify flex items-center justify-center text-black text-[15px] font-medium">ไม่มี</div>
@@ -57,7 +57,7 @@ export default function Question(){
                 </form>
                 
                 <div className='pt-[150px]'>
-                <Link href='firstpage' className=''>
+                <Link href='form' className=''>
                     <img className='' src="/backward.svg" alt="backward"/>
                 </Link>
                 </div>
